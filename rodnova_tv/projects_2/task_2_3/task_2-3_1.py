@@ -1,5 +1,0 @@
-proteins = float(input("Белки (г): "))
-fats = float(input("Жиры (Г): "))
-corbohydrates = float(input("Углеводы (г): "))
-calories = (proteins * 4) + (fats * 9) + (corbohydrates * 4)
-print(f"Калорийность продукта: {calories} ккал")
