@@ -1,0 +1,13 @@
+nastushka@DESKTOP-7CTCIAG:~$ ls -lash
+
+total 8.0K
+   0 drwxr-x--- 1 nastushka nastushka  512 Mar 12 15:50 .
+   0 drwxr-xr-x 1 root      root       512 Mar  5 15:21 ..
+   0 -rw------- 1 nastushka nastushka   42 Mar  5 15:34 .bash_history
+   0 -rw-r--r-- 1 nastushka nastushka  220 Mar  5 15:21 .bash_logout
+4.0K -rw-r--r-- 1 nastushka nastushka 3.7K Mar  5 15:21 .bashrc
+   0 drwxr-xr-x 1 nastushka nastushka  512 Mar  5 15:23 .landscape
+   0 -rw-r--r-- 1 nastushka nastushka    0 Mar 12 14:48 .motd_shown
+4.0K -rw-r--r-- 1 nastushka nastushka  807 Mar  5 15:21 .profile
+   0 -rw-r--r-- 1 nastushka nastushka    0 Mar  5 15:23 .sudo_as_admin_successful
+   0 drwxr-xr-x 1 nastushka nastushka  512 Mar 12 15:53 task_3_4

@@ -6,4 +6,4 @@ remaining_capsules = total_capsules % pack_size
 
 print("\n--- Отчет фасовочного цеха ---")
 print(f"Полных упаковок:\t{full_packs}")
-print(f"Остаток капсул:\t\t{remaining_capsules}")
+print(f"Остаток капсул:\t{remaining_capsules}")

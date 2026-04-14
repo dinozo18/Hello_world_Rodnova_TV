@@ -1,16 +1,13 @@
-volume = float(input("Введите нужный объём раствора (в мл): "))
+volume_ml = float(input("Введите нужный объем физиологического раствора (мл): "))
 
-salt_mass = volume * 0.009
-
-water_volume = volume
+salt_mass = volume_ml * 0.009
+water_volume = volume_ml
 
 with open("recipe.txt", "w", encoding="utf-8") as file:
     file.write("ОТЧЕТ ПО ПРИГОТОВЛЕНИЮ:\n")
+    file.write("-----------------------\n")
+    file.write(f"Общий объем:\t{volume_ml} мл\n")
+    file.write(f"Масса соли:\t{salt_mass:.2f} г\n")
+    file.write(f"Объем воды:\t{water_volume} мл\n")
 
-    file.write("-" * 30 + "\n")
-
-    file.write(f"Общий объем: {volume:.2f} мл\n")
-    file.write(f"Масса соли: {salt_mass:.2f} г\n")
-    file.write(f"Объем воды: {water_volume:.2f} мл\n")
-
-print("Рецепт успешно сохранён в файл recipe.txt")
+print("Рецепт сохранен в файл recipe.txt")
