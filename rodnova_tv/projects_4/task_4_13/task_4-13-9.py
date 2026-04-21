@@ -1,0 +1,14 @@
+N = int(input("Введите N: "))
+
+if N <= 0:
+    print("Ошибка. N должна быть > 0")
+else:
+    sum_val = 0
+    i = 1
+    while i <= N:
+        x = int(input("Введите число: "))  
+        print(x)                           
+        if x % 2 != 0:                     
+            sum_val = sum_val + x          
+        i = i + 1
+    print(sum_val)               
